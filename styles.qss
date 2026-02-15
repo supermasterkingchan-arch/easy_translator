@@ -1,0 +1,54 @@
+#MainFrame {
+    background-color: rgba(30, 30, 30, 245);
+    border-radius: 20px;
+    border: 1px solid #555;
+}
+
+#TitleLabel {
+    color: #bbb;
+    font-size: 15px; /* 3pt 증가분 반영 */
+    font-weight: bold;
+}
+
+#CloseButton {
+    background-color: #ff5f56;
+    color: white;
+    border-radius: 11px;
+    font-weight: bold;
+    border: none;
+    width: 22px;
+    height: 22px;
+}
+
+#CloseButton:hover {
+    background-color: #ff3b30;
+}
+
+QLineEdit {
+    background-color: #444;
+    color: #fff;
+    border: 1px solid #666;
+    border-radius: 12px;
+    padding: 12px;
+    font-size: 17px; /* 3pt 증가분 반영 */
+    margin-top: 5px;
+}
+
+QTextEdit {
+    background-color: transparent;
+    color: #50fa7b; /* 가독성 좋은 밝은 녹색 */
+    border: none;
+    font-size: 19px; /* 3pt 증가분 반영 */
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+QScrollBar:vertical {
+    border: none;
+    background: transparent;
+    width: 6px;
+}
+QScrollBar::handle:vertical {
+    background: #555;
+    border-radius: 3px;
+}
